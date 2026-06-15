@@ -70,7 +70,7 @@ function getURLParam(name) {
 function showDedicationText() { //seguidores
   let text = getURLParam('text');
   if (!text) {
-    text = `Para mi persona favorita:\n\nQueria hacer algo diferente para ti, se que los dias pueden ser un poco complicados ultimamente, pero aqui estoy siempre de alguna forma para recordarte que no estas sola, y que siempre pienso en ti.\n\nGracias por acompañarme en cada paso, por elegirme cada dia, y por llenar mis días de amor.\n\nTe amo más de lo que las palabras pueden expresar.`;  } else {
+    text = `Para mi persona favorita:\n\nQueria hacer algo diferente para ti, se que los dias pueden ser un poco complicados ultimamente, pero aqui estoy siempre para recordarte que no estas sola, y que siempre pienso en ti.\n\nGracias por acompañarme en cada paso, por elegirme cada dia, y por llenar todos mis días de mucho amor.\n\nTe amo más de lo que las palabras pueden expresar.`;  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
   const container = document.getElementById('dedication-text');
